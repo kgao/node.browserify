@@ -1,0 +1,13 @@
+{
+  "name": "node.browserify",
+  "version": "0.0.1",
+  "description": "Minimalist browserify node server",
+  "dependencies": {
+    "browserify": "10.2.4",
+    "mime": "~1.2.7",
+    "uniq": "1.0.1"
+  },
+  "scripts": {
+     "start": "node app"
+  }
+}
