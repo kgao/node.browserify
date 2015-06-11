@@ -19,6 +19,6 @@ Bundle up node server side js modules to client side js.
 
 	$ browserify node/main.js -o bundle/bundle.js
 
-####3.Drop a single <![CDATA[<script>]]> tag into your html and you are done!
+####3.Drop a single &lt;script&gt; tag into your html and you are done!
 
-  <![CDATA[<script src="bundle.js"></script>]]>
+	&lt;script src="bundle.js"&gt;&lt;/script&gt;
