@@ -2,23 +2,23 @@
 Bundle up node server side js modules to client side js.
 
 
-# Get Start
+## Get Start
 
 	$ npm install
 	$ npm start
 
 
-# Browserify Command (under root: node.browserify/)
-	
-1.Install browserify globally:
+## Browserify Command
+####(under root: node.browserify/)
+
+####1.Install browserify globally:
 
 	$ sudo npm install -g browserify
 
-2.Browserify your serverside(under node/) js to clientside (under bundle/), i.e:
+####2.Browserify your serverside(under node/) js to clientside (under bundle/) i.e:
 
 	$ browserify node/main.js -o bundle/bundle.js
-	
-3.Drop a single <script> tag into your html and you are done! 
-	
-	<script src="bundle.js"></script>
-	
+
+####3.Drop a single <![CDATA[<script>]]> tag into your html and you are done!
+
+  <![CDATA[<script src="bundle.js"></script>]]>
