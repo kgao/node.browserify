@@ -21,4 +21,4 @@ Bundle up node server side js modules to client side js.
 
 ####3.Drop a single &lt;script&gt; tag into your html and you are done!
 
-	&lt;script src="bundle.js"&gt;&lt;/script&gt;
+	<script src="/js/bundle.js"></script>
