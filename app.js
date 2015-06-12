@@ -12,7 +12,7 @@ function send404(response) {
 
 function sendFile(response, filePath, fileContents) {
   response.writeHead(
-    200, 
+    200,
     {"content-type": mime.lookup(path.basename(filePath))}
   );
   response.end(fileContents);
@@ -44,8 +44,6 @@ var server = http.createServer(function(request, response) {
 
   if (request.url == '/') {
     filePath = 'public/index.html';
-  } else if (request.url == '/game' || request.url == '/game/') {
-    filePath = 'public/game.html';
   } else {
     filePath = 'public' + request.url;
   }
@@ -57,5 +55,3 @@ var server = http.createServer(function(request, response) {
 server.listen(8585, function() {
   console.log("Server listening on port 8585.");
 });
-
-
