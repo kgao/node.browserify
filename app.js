@@ -44,6 +44,8 @@ var server = http.createServer(function(request, response) {
 
   if (request.url == '/') {
     filePath = 'public/index.html';
+  } else if (request.url == '/game' || request.url == '/game/') {
+    filePath = 'public/game.html';
   } else {
     filePath = 'public' + request.url;
   }
