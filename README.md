@@ -7,6 +7,7 @@ Bundle up node server side js modules to client side js.
 	$ npm install
 	$ npm start
 
+-> localhost:8585
 
 ## Browserify Command
 ####(under root: node.browserify/)
